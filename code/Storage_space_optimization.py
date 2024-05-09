@@ -17,6 +17,7 @@ num_x = 11
 num_y = 6 * 8
 arg_ = 0
 
+
 def window(the_last_coordinate_):           ###定義matplotlib視窗
     plot_x = []
     plot_y = []
@@ -41,6 +42,7 @@ def window(the_last_coordinate_):           ###定義matplotlib視窗
                                    facecolor=color[color_num - 2]))
     plt.show()
     plt.close()
+
 
 for i in range(100):            ###跑100筆資料做驗證
     commodity_number = []
